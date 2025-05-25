@@ -4304,6 +4304,10 @@
 		(uuid "fffbb0df-ef32-43c5-a739-aee4d4a01cb1")
 	)
 	(no_connect
+		(at 88.9 193.04)
+		(uuid "006b1c51-8cf6-478e-99c2-326f969a0cb3")
+	)
+	(no_connect
 		(at 205.74 173.99)
 		(uuid "091b579d-a703-4392-ad94-e1215166f12c")
 	)
@@ -4316,12 +4320,32 @@
 		(uuid "1a96f7ec-7e77-4cfc-95f1-c9dccff11c34")
 	)
 	(no_connect
+		(at 88.9 162.56)
+		(uuid "1dbb7ca3-39e5-493f-bd39-8fd3e8e8d140")
+	)
+	(no_connect
 		(at 58.42 160.02)
 		(uuid "1e1ba2ec-115c-4369-a205-7a1339ff5407")
 	)
 	(no_connect
+		(at 88.9 180.34)
+		(uuid "24a49ba3-1210-4eca-b5f7-9ae043031da5")
+	)
+	(no_connect
 		(at 207.01 121.92)
 		(uuid "31e98d2b-d7af-492e-9e7b-da58ad4c12f1")
+	)
+	(no_connect
+		(at 88.9 195.58)
+		(uuid "5dfc3e1f-f370-48a3-bdd7-363a2b88fdd5")
+	)
+	(no_connect
+		(at 88.9 167.64)
+		(uuid "6076515e-df52-4be8-b3cd-c139c4ee3b81")
+	)
+	(no_connect
+		(at 58.42 177.8)
+		(uuid "60c49ff7-1465-4f67-b8ea-1e1b4a78bb44")
 	)
 	(no_connect
 		(at 58.42 162.56)
@@ -4330,6 +4354,10 @@
 	(no_connect
 		(at 363.22 151.13)
 		(uuid "71ae59a9-f3dc-4038-84a1-0983164452d4")
+	)
+	(no_connect
+		(at 88.9 160.02)
+		(uuid "81c15a34-ef4f-48b4-8a54-e5308cff49a7")
 	)
 	(no_connect
 		(at 58.42 154.94)
@@ -4342,6 +4370,18 @@
 	(no_connect
 		(at 36.83 185.42)
 		(uuid "b1ddf1e3-1a96-4a85-8fee-f6c29756e93c")
+	)
+	(no_connect
+		(at 88.9 190.5)
+		(uuid "c431edf4-1beb-4e2d-89ba-23631c44fd09")
+	)
+	(no_connect
+		(at 88.9 170.18)
+		(uuid "d33b49dd-fc00-4efa-bce8-474789b8ccab")
+	)
+	(no_connect
+		(at 88.9 187.96)
+		(uuid "d9759339-508b-41cf-bc68-5c9c1895d32f")
 	)
 	(wire
 		(pts
@@ -5936,7 +5976,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Buck_Out"
+		(property "Value" "FROM BUCK"
 			(at 107.95 96.5201 0)
 			(effects
 				(font
@@ -6412,7 +6452,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Buck_In"
+		(property "Value" "TO BUCK"
 			(at 88.9 95.2501 0)
 			(effects
 				(font
@@ -9204,10 +9244,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "27c775f6-b301-489b-9870-b54aa15c06f1")
+			(uuid "27c775f6-b301-489b-9870-b54aa15c06f2")
 		)
 		(pin "2"
-			(uuid "da2422cd-9c9c-4108-8d8e-3e96f6f22f0c")
+			(uuid "da2422cd-9c9c-4108-8d8e-3e96f6f22f0d")
 		)
 		(instances
 			(project ""
